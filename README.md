@@ -1,4 +1,4 @@
 # Kokoa Clone 2020
 
-Learning to code
+Learning coding is fun.
 Kokoa Clone by using Html, CSS
