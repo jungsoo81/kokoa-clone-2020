@@ -1,0 +1,14 @@
+.friends-display {
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+.friends-display i {
+  opacity: 0.2;
+  margin: 0px 8px;
+}
+.friends-display span {
+  opacity: 0.7;
+}
