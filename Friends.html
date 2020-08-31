@@ -1,71 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - KokoaClone</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span><i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>20:01</span>
-        </div>
-        <div class="status-bar__column">
-            <span>120%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>No Service</span><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>20:01</span>
+      </div>
+      <div class="status-bar__column">
+        <span>120%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
+    <main class="main-screen">
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
 
-    <div class="screen-header">
-
-        <div class="screen-header__column">
-            <div class="screen-header__title">
-                <span>Friends</span>
-            </div>
-            <div class="screen-header__column">
-            <div class="screen-header__icons">
-                <i class="fas fa-search fa-lg"></i>
-                <i class="fas fa-music fa-lg"></i>
-                <i class="fas fa-cog fa-lg"></i>
-                </div></div>
-
-            </div>
-
-
-            <div class="friends-display">
-                <i class="fas fa-info-circle"></i>
-                <span>Friends' Names Display</span>
-                <i class="fas fa-angle-right"></i>
-            </div>
-
-
-
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i> </span>
         </div>
-    </div>
-    </header>
+      </header>
 
-   <nav class="nav">
-       <ul class="nav__ul">
-           <li class="nav__li">
-               <a class="nav__a" href="friends.html">
-                   <i class="far fa-user fa-2x"></i>
-                </a>
-            </li>
-           <li class="nav__li"><a class="nav__a" href="chats.html"><i class="far fa-comment fa-2x"></i></a></li>
-           <li class="nav__li"><a class="nav__a" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
-           <li class="nav__li"><a class="nav__a" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+      <div class="friends-display">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-angle-right"></i>
+      </div>
 
-       </ul>
-   </nav>
+      <div class="user-component">
+        <img
+          class="user-component__avatar"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7aWuEpuEYPIXr3ZtVjzBAWkjo_h7M7aLRmA&usqp=CAU"
+        />
+        <h5 class="user-component__title">Jungsoo</h5>
+        <!--<h6 class="user-component__subtitle">use it later</h6>-->
+      </div>
 
-    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
-</body>
+      <div class="friends__channel">
+        <div class="friends__channel-header">
+          <span>Channel</span> <i class="fas fa-angle-up"></i>
+        </div>
 
+        <div class="user-component">
+          <img
+            class="user-component__avatar user-component__avatar-sm"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7aWuEpuEYPIXr3ZtVjzBAWkjo_h7M7aLRmA&usqp=CAU"
+          />
+          <h5 class="user-component__title">Channel</h5>
+          <!--<h6 class="user-component__subtitle">use it later</h6>-->
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="chats.html"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
